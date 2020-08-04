@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(to right, orange, violet);
+  margin: 0;
+  padding: 0;
+}
+
+.Tateti {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  height: 500px;
+  width: 500px;
+  top: 50vh;
+  margin-top: -250px;
+  left: 50vw;
+  margin-left: -250px;
+  font-size: 0; 
+  border-radius: 10%;
+}
+
+button {
+  position: relative;
+  width: 33.3%;
+  height: 33.3%;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+.button1 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 15%;
+}
+
+.button2 {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.button3 {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top-right-radius: 15%;
+}
+
+.button4 {
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.button5 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.button6 {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.button7 {
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom-left-radius: 15%;
+}
+
+.button8 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.button9 {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom-right-radius: 15%;
+}
+
+.cross {
+  background-image: url(images/cross.png);
+  background-size: 100%;
+  background-color: rgba(255, 0, 0, .5);
+}
+
+.circle {
+  background-image: url(images/circle.png);
+  background-size: 100%;
+  background-color: rgba(0, 0, 255, .5);
+}
